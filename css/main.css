@@ -1,0 +1,1248 @@
+@import url("font-awesome.min.css");
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #ebebe9;
+}
+body, form input  {
+    color: #616161;
+    font: 200 18px/28px 'Forza SSm A','Forza SSm B';
+    text-decoration: none;
+    text-shadow: none;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.clear { clear: both; }
+/* Menu */
+.cbp-spmenu-push-toright {
+    left: 300px;
+}
+.cbp-spmenu-vertical {
+    font-size: 100%;
+    width: 300px;
+}
+.cbp-spmenu-vertical a {
+    border-bottom: 1px solid #258ecd;
+    padding: 0;
+}
+.cbp-spmenu-left, .cbp-spmenu-push-toleft {
+    left: -300px;
+}
+.cbp-spmenu a:hover {
+    background: none;
+}
+#menu {
+    background: #313131;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+}
+#menu .ui-panel-inner {
+    padding: 0;
+}
+#menu ul {
+    padding: 0;
+    list-style-type: none;
+}
+#menu ul li {
+    margin-left: 38px;
+    padding-left: 38px;
+
+}
+#menu ul li a {
+    display: block;
+    color: #b7b7b6;
+    font: italic 400 16px/50px 'Forza SSm A','Forza SSm B';
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #3d3d3d;
+}
+#menu ul li:hover a, #menu ul li a:hover, #menu ul li.active a {
+    color: #ce442b;
+}
+#menu li {
+    cursor: pointer;
+    background: url('http://www.fancred.com/about/assets1403180914/img/sprites/menu.png') no-repeat;
+}
+#menu .about { background-position: 5px -53px; }
+#menu .about.active, #menu .about:hover { background-position: 5px 15px; }
+#menu .team { background-position: 5px -461px; }
+#menu .team.active, #menu .team:hover { background-position: 5px -393px; }
+#menu .press { background-position: 5px -325px; }
+#menu .press.active, #menu .press:hover { background-position: 5px -257px; }
+#menu .contact { background-position: 5px -189px; }
+#menu .contact.active, #menu .contact:hover { background-position: 5px -121px; }
+
+/* Header */
+.header {
+    height: 520px;
+    background: url('http://www.fancred.com/about/assets1403180914/img/headers/about.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.header .inside {
+    text-align: center;
+}
+
+
+ nav {
+            margin: 1.5em 0 0 0;
+        }
+
+             nav li {
+                display: inline-block;
+                height: 5.35em;
+                line-height: 5.885em;
+                position: relative;
+                top: 0;
+                width: 5.35em;
+            }
+
+             nav a {
+                border: 0;
+                display: inline-block;
+            }
+
+                 nav a:before {
+                    border-radius: 100%;
+                    border: solid 2px black;
+                    display: block;
+                    font-size: 1.75em;
+                    height: 2.5em;
+                    line-height: 2.5em;
+                    position: relative;
+                    text-align: center;
+                    top: 0;
+                    width: 2.5em;
+                }
+
+                nav a:hover {
+                    font-size: 1.1em;
+                }
+
+                     nav a:hover:before {
+                        /*background-color: rgba(255, 255, 255, 1);*/
+                        color: black;
+                    }
+
+                 nav a:active {
+                    font-size: 0.95em;
+                    background: none;
+                }
+
+                     nav a:active:before {
+                        background-color: rgba(255, 255, 255, 0.35);
+                        color: white;
+                    }
+
+                 nav a span {
+                    display: none;
+                }
+
+
+
+
+
+
+
+
+
+/* Header btns */
+.topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+    -webkit-transition: background-color 0.3s ease, left 0.3s ease;
+    -moz-transition: background-color 0.3s ease, left 0.3s ease;
+    -ms-transition: background-color 0.3s ease, left 0.3s ease;
+    -o-transition: background-color 0.3s ease, left 0.3s ease;
+    transition: background-color 0.3s ease, left 0.3s ease;
+}
+.topnav a:hover {
+    text-decoration: none;
+}
+.topnav .left {
+    float: left;
+    padding: 21px 0 0 10px;
+}
+.topnav .right {
+    float: right;
+    padding: 10px;
+}
+.topnav .left .button {
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 20px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    opacity: 0.75;
+}
+.topnav .left .button:hover {
+    filter: alpha(opacity=100);
+    -moz-opacity: 1.0;
+    -khtml-opacity: 1.0;
+    opacity: 1.0;
+}
+
+.topnav .left .button.menu {
+    cursor: pointer;
+    background: url('http://www.fancred.com/about/assets1403180914/img/sprites/menu.png') 0 -525px no-repeat;
+    padding-left: 27px;
+    padding-right: 10px;
+    line-height: 25px;
+    padding-top: 1px;
+}
+/* topnav scrolled */
+.topnav.scrolled {
+    background: #ebebe9;
+    background: rgba(235,235,235,0.9);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+.topnav.scrolled .left .button {
+    color:#ce442b;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1.0;
+    -khtml-opacity: 1.0;
+    opacity: 1.0;
+}
+.topnav.scrolled .left .button:hover {
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    opacity: 0.75;
+}
+.topnav.scrolled .button.menu {
+    background-position: 0 -545px;
+}
+/* top nav when menu is open */
+body.cbp-spmenu-push-toright .topnav {
+    left: 300px;
+}
+
+/* header */
+.header {
+    position: relative;
+}
+.header .page-tagline {
+    padding: 152px 30px;
+}
+.header .page-tagline span {
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 800;
+    font-style: italic;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0 4px black, 0 0 4px black;
+}
+.header .arrow-down {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+}
+.header .arrow-down .icon {
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    background: url('http://www.fancred.com/about/assets1403180914/img/arrow-down.png') 0 0 no-repeat;
+}
+/* About page header */
+.header.about {
+    position: relative;
+    background-image: url('http://i.imgur.com/A7oKavT.jpg'); /*2013 AKD Pic*/
+}
+.header.about .logo-tagline {
+    padding-top: 100px;
+    margin-bottom: 10px;
+}
+.header.about .page-tagline {
+    margin-top: 0;
+    padding: 0 10px;
+}
+/* Team page header */
+.header.team {
+    background-image: url('http://i.imgur.com/ARlFQ8f.jpg'); /*Team pic*/
+}
+.header.team .page-tagline {
+    padding-top: 227px;
+}
+/* Contact page header */
+.header.contact {
+    background-image: url('http://i.imgur.com/02r0Dmn.jpg'); /*Navaratri Pic*/
+}
+/* Press page header */
+.header.press {
+    background-image: url('http://i.imgur.com/jDZPe6e.png'); /*GWA on stage pic */
+}
+.header.press .page-tagline {
+    padding-top: 227px;
+}
+.header.contact .page-tagline {
+    padding-top: 227px;
+}
+/* Main */
+.content .inside {
+    /*min-height: 500px;*/
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.content .inside .col {
+    width: 450px;
+}
+.content .inside .col.one {
+    float: left;
+}
+.content .inside .col.two {
+    float: left;
+    margin-left: 60px;
+}
+/* About page content */
+.content.about .inside {
+    padding-top: 7px;
+}
+.content.about .inside .tagline {
+    width: 100%;
+    text-align: center;
+    margin-top: -7px;
+    color: #ce442b;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 200;
+    border-bottom: 1px solid #dadad8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content.about .col.one {
+    text-align: center;
+}
+.content.about .col.one .founded {
+    color: #ce442b;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 43px;
+    font-weight: 600;
+}
+.content.about .col.one .founded .year{
+    font-size: 72px;
+    line-height: 80px;
+    font-style: italic;
+    font-weight: 800;
+}
+.content.about .col.one .phone {
+    margin-top: 35px;
+}
+.content.about .col.two .mission {
+    font-size: 18px;
+    line-height: 28px;
+    color: #616161;
+    font-weight: 200;
+    padding: 44px 25px 75px 0;
+}
+.content.about .col.two .iphone,
+.content.about .col.two .android,
+.content.about .col.two .share {
+    border-top: 1px solid #dadad8;
+    padding: 40px 0 30px 0;
+}
+.content.about .col.two .icon {
+    float: left;
+}
+.content.about .col.two .text {
+    float: left;
+    width: 330px;
+    padding-left: 30px;
+}
+.content.about .col.two .title {
+    font-style: italic;
+    font-weight: 800;
+    line-height: 18px;
+}
+.content.about .col.two .body {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 3px;
+}
+.content.about .col.two .iphone .download {
+    margin-top: 14px;
+}
+.content.about .col.two .iphone .download .button {
+    float: left;
+}
+.content.about .col.two .iphone .download .label {
+    float: left;
+    margin-left: 15px;
+    margin-top: 11px;
+}
+.content.about .col.two .android .form {
+    position: relative;
+    margin-top: 12px;
+}
+.content.about .col.two .android #email {
+    padding: 15px 80px 15px 15px;
+    font-size: 16px;
+    line-height: 18px;
+    width: 100%;
+    color: #616161;
+    background: #fff;
+    border: 1px solid #dadad8;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /* use border box model, fixes 100%+padding issue */
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:        border-box;
+}
+.content.about .col.two .android #submit {
+    border: 0;
+    position: absolute;
+    background: url('http://www.fancred.com/about/assets1403180914/img/sprites/submit-button.png') 0 0 no-repeat;
+    width: 53px;
+    height: 40px;
+    top: 7px;
+    right: 5px;
+    padding: 0;
+}
+.content.about .col.two .android #submit.active {
+    background-position: 0 -40px;
+}
+.content.about .col.two .share {
+    padding-top: 20px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #dadad8;
+}
+.content.about .col.two .share .icon {
+    margin-top: 15px;
+}
+.content.about .col.two .share .body {
+    font-size: 14px;
+    line-height: 20px;
+}
+.content.about .col.two .share .body a {
+    color: #ce442b;
+    font-size: 14px;
+}
+
+.content.about .share-btn {
+    height: 520px;
+    width: 100%;
+    background: url('/about/assets1403180914/img/share-button-bg.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+.content.about .share-btn .title {
+    padding-top: 54px;
+}
+.content.about .share-btn .title span {
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 800;
+    font-style: italic;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+}
+.content.about .share-btn .desc {
+    font-size: 24px;
+    color: #fff;
+    line-height: 100px;
+}
+.content.about .share-btn .bookmarklet {
+    display: inline-block;
+    margin-left: 250px;
+}
+.content.about .share-btn .button .label {
+    top: -18px;
+    position: relative;
+    left: 10px;
+}
+/* Team page content */
+.content.team {
+    padding-bottom: 30px;
+}
+.content.team .founders {
+    margin-bottom: 30px;
+}
+.content.team .founders .col.one {
+    width: 300px;
+    height: 300px;
+    padding-right: 30px;
+}
+.content.team .founders .col.two {
+    float: right;
+    width: 570px;
+    height: 240px;
+    padding: 30px;
+    background: #fff;
+    margin: 0;
+}
+.content.team .founders .name {
+    color: #ce442b;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 24px;
+}
+.content.team .founders .title {
+    color: #9f9f9e;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.content.team .founders .bio {
+    color: #616161;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 3px;
+    height: 165px;
+}
+.content.team .links .twitter {
+    display: block;
+    float: left;
+    width: 18px;
+    height: 16px;
+    background: url('http://www.fancred.com/about/assets1403180914/img/sprites/twitter.png') 0 0 no-repeat;
+    margin-right: 20px;
+}
+.content.team .teammember .links .twitter {
+    background: url('http://www.fancred.com/about/assets1403180914/img/sprites/twitter-white.png') 0 0 no-repeat;
+}
+.content.team .teammember .links .twitter:hover {
+    background-position: bottom left;
+}
+.content.team .links .twitter:hover {
+    background-position: bottom left;
+}
+.content.team .links {
+
+}
+.content.team .links .linkedin {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url('http://www.fancred.com/about/assets1403180914/img/sprites/linkedin.png') 0 0 no-repeat;
+}
+.content.team .teammember .links .linkedin {
+    background: url('http://www.fancred.com/about/assets1403180914/img/sprites/linkedin-white.png') 0 0 no-repeat;
+}
+.content.team .teammember .links .linkedin:hover {
+    background-position: bottom left;
+}
+.content.team .links .linkedin:hover {
+    background-position: bottom left;
+}
+.content.team .row.small {
+    margin: -30px -30px 30px 0;
+}
+.content.team .teammember {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px
+}
+.content.team .img {
+    width: 300px;
+    height: 300px;
+    
+}
+.content.team .
+ .links {
+    display: none;
+    margin-top: 5px
+}
+.content.team .teammember.last {
+    margin-right: 0;
+}
+.content.team .teammember .info {
+    position: relative;
+    margin-top: -82px;
+    padding: 20px;
+    height: 35px;
+    background: #ce442b;
+    background: rgba(206,68,43,0.9);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.content.team .teammember:hover .info {
+    margin-top: -65px;
+    height: 75px;
+}
+.content.team .teammember:hover .info .links {
+    display: block;
+}
+.content.team .teammember .info .name {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 800;
+    font-style: italic;
+    color: #fff;
+}
+.content.team .teammember .info .title {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/* Press page content */
+.content.press .inside {
+    padding-top: 5px;
+}
+.content.press .inside .tagline {
+    width: 100%;
+    text-align: center;
+    margin-top: -7px;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 200;
+    border-bottom: 1px solid #dadad8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #9f9fa0;
+}
+.content.press .inside .tagline span {
+    padding: 0 5px;
+    display: block;
+    text-align: center;
+}
+.content.press .inside .tagline a {
+    color: #ce442b;
+}
+.content.press .tabs {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #dadad8;
+}
+.content.press .tabs .row {
+    width: 290px;
+    margin: 0 auto;
+}
+.content.press .tabs .tab {
+    float: left;
+    line-height: 70px;
+    color: #9f9f9e;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.content.press .tabs .tab.active, .content.press .tabs .tab:hover {
+    color: #ce442b;
+    border-bottom: 1px solid #ce442b;
+    margin-bottom: -1px;
+}
+.content.press .tabs .tab.news {
+    margin-right: 40px;
+}
+.content.press .tabcontent {
+    margin-top: 60px;
+}
+.content.press .quotebox {
+    background: #ce442b;
+    height: 150px;
+    padding: 30px;
+}
+.content.press .quotebox .quotepager {
+    width: 25px;
+    margin: 15px auto 0 auto;
+}
+.content.press .quotebox .dot {
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    background: url('www.fancred.com/about/assets1403180914/img/sprites/dots.png') -15px 0 no-repeat;
+}
+.content.press .quotebox .quotes {
+    display: none;
+    height: 170px
+}
+.content.press .quotebox .dot.last {
+    margin-right: 0;
+}
+.content.press .quotebox .dot.active {
+    background: url('www.fancred.com/about/assets1403180914/img/sprites/dots.png') 0 0 no-repeat;
+}
+.content.press .quotebox .quote {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+    font-style: italic;
+    color: #fff;
+    text-transform: uppercase;
+}
+.content.press .quotebox .quotee {
+    font-size: 14px;
+    font-weight: 600;
+    color: #95170c;
+    font-style: italic;
+}
+.content.press .companyinfo {
+    margin-top: 30px;
+    background: #fff;
+    padding: 20px 30px 30px 30px
+}
+.content.press .companyinfo .row {
+    border-bottom: 1px solid #ebebe9;
+    color: #616161;
+    line-height: 28px;
+    font-size: 14px;
+}
+.content.press .companyinfo .row .bold {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.content.press .companyinfo .row.last {
+    line-height: 18px;
+    border-bottom: 0;
+    padding-top: 5px;
+}
+.content.press .tabcontent .col.two {
+    padding-top: 1px;
+}
+.content.press .article {
+    border-top: 1px solid #dadad8;
+}
+.content.press .article.last {
+    border-bottom: 1px solid #dadad8;
+}
+.content.press .article .meta {
+    color: #9f9f9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 18px;
+    margin-top: 26px;
+}
+.content.press .article .meta .publication {
+    font-weight: 600;
+    padding-right: 5px;
+}
+.content.press .article .title {
+    color: #616161;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 2px;
+    display: block;
+    margin-bottom: 26px;
+}
+.content.press .tabcontent.hidden {
+    display: none;
+}
+.content.press .tabcontent {
+    padding-bottom: 60px;
+}
+.content.press .tabcontent.downloads .col {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 0 30px 30px 0;
+
+}
+.content.press .tabcontent.downloads .col img {
+    width: 300px;
+    height: 300px;
+}
+.content.press .tabcontent.downloads .col.last {
+    margin-right: 0;
+}
+.content.press .tabcontent.downloads .col .text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ebebe9;
+    background: rgba(206,68,43,0.9);
+    padding: 12px;
+    top: -68px;
+    position: relative;
+}
+.content.press .tabcontent.downloads .col .text a {
+    color: #fff;
+}
+.content.press .tabcontent.downloads .col.icons .text,
+.content.press .tabcontent.downloads .col.logo-white .text {
+    color: #9f9f9e;
+    background: none;
+}
+.content.press .tabcontent.downloads .col.icons .text .light a,
+.content.press .tabcontent.downloads .col.logo-white a {
+    color: #ce442b;
+}
+.content.press .tabcontent.downloads .col.icons .text .light,
+.content.press .tabcontent.downloads .col.icons .text .dark {
+    float: left;
+    width: 50%;
+}
+.content.press .tabcontent.downloads .col.icons .text .dark {
+    padding-left: 15px;
+    color: #ebebe9;
+    width: auto;
+}
+
+/* Contact page content */
+.content.contact .inside .col.one {
+    padding: 35px 0;
+    text-align:center;
+    border-top: 1px solid #dadad8;
+    border-bottom: 1px solid #dadad8;
+
+}
+.content.contact .inside .col.one .title {
+    font-size: 22px;
+    line-height: 28px;
+    font-style: italic;
+    font-weight: 800;
+    padding: 0 5px;
+}
+.content.contact .inside .col.one .email {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 800;
+    margin-top: 2px;
+}
+.content.contact .inside .col.one .email a {
+    color: #ce442b;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 800;
+}
+.content.contact .inside .col.two {
+    height: 130px;
+    background: #fff;
+}
+.content.contact .inside .col.two ul {
+    margin: 0;
+    padding: 22px 30px 0 30px;
+    list-style-type: none;
+}
+.content.contact .inside .col.two ul li {
+    line-height: 28px;
+    font-size: 14px;
+    border-bottom: 1px solid #ebebe9;
+    font-weight: 800;
+}
+.content.contact .inside .col.two ul li a {
+    color: #ce442b;
+    font-weight: 400;
+    font-size: 14px;
+}
+.content.contact .inside .col.two ul li.last {
+    border-bottom: none;
+}
+.content.contact .inside .col.two .label {
+    text-transform: uppercase;
+    color: #616161;
+    padding-right: 5px;
+}
+
+.icon {
+        position: relative;
+    }
+
+        .icon:before {
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none !important;
+        }
+
+        .icon > .label {
+            display: none;
+        }
+
+
+img#headshot {
+      background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border-width: 2px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    width:300px;
+    height: 300px;
+}
+
+img#circular {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+   /* background: url(http://link-to-your/image.jpg) no-repeat;*/
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
+
+#sharecode {
+    display: none;
+}
+#mce-error-response, #mce-success-response {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+}
+#mce-error-response {
+    color: #ce442b;
+}
+/* Footer */
+footer {
+    background: #313131;
+    height: 70px;
+}
+footer .inside {
+    width: 960px;
+    margin: 0 auto;
+}
+footer ul.links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul.links li {
+    float: left;
+    padding-right: 15px;
+    line-height: 70px;
+}
+footer ul.links li a {
+    -moz-transition: color .2s ease-in;
+    -o-transition: color .2s ease-in;
+    -webkit-transition: color .2s ease-in;
+    color: #616161 !important;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+footer ul.links li a:hover {
+    color: #b7b7b6 !important;
+    text-decoration: none;
+}
+footer .social {
+    float: right;
+}
+footer .social .fb {
+    margin-top: 22px;
+    float: left;
+}
+footer .social .twitter {
+    float: left;
+    margin-top: 25px;
+}
+/* Retina sprites */
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .content.team .links .twitter {
+        background-image: url('http://www.fancred.com/about/assets1403180914/img/sprites/twitter@2x.png');
+        background-size: 18px 32px;
+    }
+    .content.team .links .linkedin {
+        background-image: url('http://www.fancred.com/about/assets1403180914/img/sprites/linkedin@2x.png');
+        background-size: 16px 32px;
+    }
+    .topnav.scrolled {
+        background-size: 153px 14px;
+    }
+    .header .arrow-down .icon {
+        background: url('http://www.fancred.com/about/assets1403180914/img/arrow-down@2x.png') 0 0 no-repeat;
+        background-size: 48px 48px;
+    }
+    .content.team .teammember .links .twitter {
+        background: url('http://www.fancred.com/about/assets1403180914/img/sprites/twitter-white@2x.png') 0 0 no-repeat;
+        background-size: 18px 32px;
+    }
+    .content.team .teammember .links .linkedin {
+        background: url('http://www.fancred.com/about/assets1403180914/img/sprites/linkedin-white@2x.png') 0 0 no-repeat;
+        background-size: 16px 32px;
+    }
+    .content.about .col.two .android #submit {
+        background: url('http://www.fancred.com/about/assets1403180914/img/sprites/submit-button@2x.png') 0 0 no-repeat;
+        background-size: 53px 80px;
+    }
+}
+/* Responsive */
+@media (max-width: 959px) {
+    .header {
+        background-attachment: initial;
+    }
+    .topnav {
+        -webkit-transition: background-color 0.1s ease, left 0.1s ease;
+        -moz-transition: background-color 0.1s ease, left 0.1s ease;
+        -ms-transition: background-color 0.1s ease, left 0.1s ease;
+        -o-transition: background-color 0.1s ease, left 0.1s ease;
+        transition: background-color 0.1s ease, left 0.1s ease;
+    }
+    .topnav .left .button {
+
+    }
+    .topnav .button.menu {
+
+    }
+    .cbp-spmenu, .cbp-spmenu-push {
+        -webkit-transition: all 0.1s linear;
+        -moz-transition: all 0.1s linear;
+        -ms-transition: all 0.1s linear;
+        -o-transition: all 0.1s linear;
+        transition: all 0.1s linear;
+    }
+    /* General */
+    footer {
+        height: auto;
+    }
+    footer .inside {
+        width: 100%;
+    }
+    footer ul.links {
+        width: 100%;
+        float: none;
+        margin-top: 0;
+    }
+    footer ul.links li {
+        float: none;
+        text-align: center;
+        border-bottom: 1px solid #383838;
+        padding: 0;
+    }
+    footer ul.links li a {
+        width: 100%;
+        display: block;
+        height: inherit;
+        line-height: 49px;
+    }
+    footer .social {
+        text-align: center;
+        float: none;
+    }
+    footer .social .twitter {
+        float:none;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    footer .social .fb {
+        float:none;
+        margin-top: 50px;
+    }
+    .content .inside {
+        padding-top: 0;
+        width: 100%;
+        min-height: 0;
+    }
+    .content .inside .col {
+        width: 100%;
+        margin: 0 !important;
+        float: none;
+    }
+    /* About page */
+    .content.about .inside .tagline {
+        /* use border box model, fixes 100%+padding issue */
+        -moz-box-sizing:    border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing:        border-box;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .content.about .col.two .mission {
+        padding-left: 25px;
+        padding-bottom: 40px;
+        text-align: center;
+        padding-right: 25px;
+    }
+    .content.about .col.two .icon {
+        float: none;
+        text-align: center;
+    }
+    .content.about .col.two .iphone,
+    .content.about .col.two .android {
+        padding: 30px 0 20px 0
+    }
+    .content.about .col.two .iphone .text,
+    .content.about .col.two .android .text,
+    .content.about .col.two .share .text{
+        width: 330px;
+        margin: 0 auto;
+        padding: 0 10px 0 10px;
+        float: none;
+    }
+    .content.about .col.two .title {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .content.about .col.two .body {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .content.about .col.two .iphone .download {
+        width: 288px;
+        margin: 15px auto 0 auto;
+    }
+    .content.about .col.two .share {
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+    /* Contact page */
+    .content.contact .inside .col.two {
+        margin-bottom: 25px !important;
+    }
+    .content.contact .inside .col.two ul {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .content.contact .inside .col.two ul li {
+        text-align: center;
+        line-height: 43px;
+    }
+    .content.about .col.two .share {
+        display: none;
+    }
+    .content.team .founders {
+        padding-top: 30px;
+        background: #fff;
+        width: 630px;
+        margin: 30px auto 0 auto;
+    }
+    .content.team .founders .col.one {
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding-right: 0;
+    }
+    .content.team .founders .col.two {
+        float: none;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 20px 0 40px 0;
+    }
+    .content.team .founders .bio {
+        height: auto;
+        padding: 0 30px;
+    }
+    .content.team .founders .links {
+        width: 54px;
+        margin: 15px auto 0 auto;
+    }
+    .content.team .row.small {
+        width: 630px;
+        margin: 0 auto;
+    }
+    .content.team .teammember {
+        margin-top: 30px;
+    }
+    .content.team .teammember.odd {
+        margin-right: 0;
+    }
+    .content.press .tabs {
+        display: none;
+    }
+    .content.press .tabcontent.news {
+        margin-top: 0;
+    }
+    .content.press .quotebox {
+        text-align: center;
+        height: auto;
+    }
+    .content.press .companyinfo {
+        margin-top:0;
+        text-align: center;
+    }
+    .content.press .article {
+        text-align: center;
+        padding: 0 20px;
+    }
+}
+@media (max-width: 740px) {
+    /* Hiding the bookmarklet below this size,
+       the design breaks and the user probably doesn't
+       have a bookmark bar anyway */
+    .content.about .share-btn {
+        display: none;
+    }
+    .topnav .left .button.signin {
+        display:none;
+    }
+}
+@media (max-width: 670px) {
+    .header.about .page-tagline span,
+    .header.team .page-tagline span,
+    .header.press .page-tagline span,
+    .header.contact .page-tagline span{
+        border: 0;
+    }
+    .content.team .founders {
+        width: auto;
+        margin: 20px 10px 0 10px;
+    }
+    .content.team .row.small {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .content.team .teammember {
+        margin-right: 0;
+    }
+    .content.about .download .label {
+        display: none;
+    }
+    .content.about .download .button {
+        width: 120px;
+        margin: 0 auto;
+        float: none !important;
+    }
+}
+@media (max-width: 500px) {
+    .topnav.scrolled {
+        background-image: none;
+    }
+}
+@media (max-width: 415px) {
+    .content.press .quotebox .quote {
+        font-size: 14px;
+    }
+}
+@media (max-width: 320px) {
+    .content.about .col.two .iphone .text,
+    .content.about .col.two .android .text,
+    .content.about .col.two .share .text {
+        width: 300px;
+    }
+    .content.team .founders {
+        padding-top: 0;
+    }
+    .content.press .quotebox .quote {
+        font-size: 12px;
+    }
+}

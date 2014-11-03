@@ -1,0 +1,56 @@
+var articles = [
+  {
+    publication: "Columbia Bwog",
+    date: "April 7, 2014",
+    title: "TamashaHop",
+    link: "http://bwog.com/2014/04/07/tamashahop/"
+  },
+  {
+    publication: "The Fordham Ram",
+    date: "April 5, 2014",
+    title: "WHY IT’S TIME TO CULTIVATE DIVERSITY’S ROOTS ON CAMPUS",
+    link: "http://fordhamram.com/2014/04/09/why-its-time-to-cultivate-diversitys-roots-on-campus/"
+  },
+  {
+    publication: "Liverpool FC",
+    date: "January 10, 2014",
+    title: "Reds become first PL club to join Fancred",
+    link: "http://www.liverpoolfc.com/news/latest-news/152894-reds-become-first-pl-club-to-join-fancred"
+  },
+  {
+    publication: "BostInno",
+    date: "January 10, 2014",
+    title: "14 Apps Built in Boston You Could Integrate Into Your Everyday Life",
+    link: "http://bostinno.streetwise.co/2014/01/10/boston-startups-startups-built-in-boston/#s_fancred_s"
+  },
+  {
+    publication: "SportTechie",
+    date: "December 19, 2013",
+    title: "Top Five Sports Technology/Digital Media Trends to Watch for in 2014",
+    link: "http://www.sporttechie.com/2013/12/19/top-5-sports-technologydigital-media-trends-to-watch-for-in-2014/"
+  },
+  {
+    publication: "AppAdvice",
+    date: "November 21, 2013",
+    title: "Sports Fans Are Flocking To Fancred 2.0 For iPhone",
+    link: "http://appadvice.com/appnn/2013/11/sports-fans-are-flocking-to-fancred-2-0-for-iphone"
+  },
+  {
+    publication: "Boston.com",
+    date: "October 16, 2013",
+    title: "Fancred wraps up $1.5 million funding round",
+    link: "http://www.boston.com/business/technology/innoeco/2013/10/fancred_mobile_app_for_die-har.html"
+  },
+  {
+    publication: "Fancred",
+    date: "August 7, 2013",
+    title: "The Boston Red Sox become the first team to join Fancred",
+    link: "http://blog.fancred.com/post/58784392585/the-boston-red-sox-have-become-the-first-team-to"
+  },
+  {
+    publication: "FanSided",
+    date: "June 20, 2013",
+    title: "FanSided And Fancred Team Up To Give A Voice To Fans",
+    link: "http://fansided.com/2013/06/20/fansided-and-fancred-team-up-to-give-a-voice-to-fans/"
+  }
+];
